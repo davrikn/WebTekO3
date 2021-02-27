@@ -1,0 +1,18 @@
+body {
+    display: block;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#new-list-section {
+    background-color: red;
+}
+
+footer {
+    align-self: end;
+    background-color: green;
+}
+
+header {
+    background-color: blue;
+}
