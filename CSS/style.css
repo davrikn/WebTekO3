@@ -6,7 +6,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
     overflow-x: hidden;
-    background-color: ;
+    background-color: #B9D1EE;
 }
 
 header{
@@ -28,7 +28,6 @@ header h1{
 }
 
 #Table-section table{
-    margin: 20px;
 }
 
 #Table-section h1{
@@ -51,64 +50,33 @@ header h1{
     display: flex;
     background-color: #20639B;
     width: 100%;
-    padding: 20px;
     justify-content: center;
 }
 
 .flex-item{
     width: 50%;
-}
-
-#FINISHED-table div tr{
-    display: inline-block;
-    align-content: center;
-}
-
-#FINISHED-table div {
-    border: black 2px solid;
-    background-color: pink;
-    border-radius: 5px;
-    width:auto;
-    right: 0;
-    left: 0;
-}
-
-#FINISHED-table {
-    width: 100%;
-    display: flex;
-}
-
-#TODO-table {
-    width: 100%;
-}
+ }
 
 .TODO-table {
-
+    width: 100%;
+    margin: 0;
+    max-width: 100%;
 }
 
 .TODO-div {
-
-}
-
-
-#TODO-table div {
     border: black 2px solid;
-    width: auto;
-    margin: 0;
-    background-color: aqua;
-    display: block;
 }
 
-#TODO-table div tr{
-    display: inline-block;
-    align-content: center;
+.TODO-row {
+    background-color: aqua;
 }
 
 footer {
-    align-self: end;
-    background-color: green;
-}
-
-header {
-    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    background-color: #20639B;
+    width: 100%;
+    padding: 2.5vh;
+    text-align: center;
+    font-style: italic;
 }
