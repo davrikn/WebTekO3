@@ -27,11 +27,12 @@ header h1{
     flex-flow: wrap;
 }
 
-#Table-section table{
-}
-
 #Table-section h1{
     justify-self: center;
+}
+
+main {
+    margin-bottom: 8vw;
 }
 
 .h1div h1 {
@@ -51,11 +52,37 @@ header h1{
     background-color: #20639B;
     width: 100%;
     justify-content: center;
+    padding: 20px 0px;
+}
+
+.button{
+    right: 10px;
+    bottom: 10px;
+    padding: 5px 10px;
+    border-style: solid;
+    border-radius: 5px;
+    float: right;
+    background-color: #0a2d6a;
+    color: white;
+    font-size: larger;
+}
+
+.button:hover{
+    background-color: #5886CF;
+    cursor: pointer;
+}
+
+.button:focus{
+    outline: none;
 }
 
 .flex-item{
     width: 50%;
  }
+
+#TODO-finished td{
+    text-decoration: line-through;
+}
 
 .TODO-table {
     width: 100%;
@@ -63,16 +90,18 @@ header h1{
     max-width: 100%;
 }
 
-.TODO-div {
-    border: black 2px solid;
+.button-data {
+    float: right;
 }
 
 .TODO-row {
-    background-color: aqua;
+    background-color: whitesmoke;
+    border: black 2px solid;
+    flex-wrap: wrap;
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     background-color: #20639B;
     width: 100%;
@@ -80,3 +109,37 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+.delete-button {
+    background-color: red;
+}
+
+.delete-button:hover {
+    background-color: #9e0013;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
