@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoList</title>
+    <script src="JS/TODO-manager.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<header>
+    <h1>TODO application</h1>
+</header>
+
+<main>
+    <section id="new-list-section">
+        <input type="text" id="new-list-text" placeholder="What has to be done?" onkeyup="new_TODO_enter(event)">
+        <input class="button" type="button" id="new-list-button" onclick="new_TODO()" value="New TODO">
+    </section>
+
+    <section id="Table-section">
+
+        <section id="TODO" class="flex-item">
+            <div class="h1div">
+                <h1>TODO items</h1>
+            </div>
+            <table id="TODO-table" class="TODO-table"></table>
+        </section>
+
+        <section id="TODO-finished" class="flex-item">
+            <div class="h1div">
+                <h1>Finished TODO</h1>
+            </div>
+            <table id="FINISHED-table" class="TODO-table"></table>
+        </section>
+    </section>
+
+</main>
+
+<footer>
+    <p>Markus Svenøy & David Rise Knotten, Copyright &copy; 2021</p>
+</footer>
+
+</body>
+</html>

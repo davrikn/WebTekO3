@@ -1,0 +1,145 @@
+body {
+    display: block;
+    justify-content: center;
+    align-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-color: #B9D1EE;
+}
+
+header{
+    margin: 0px;
+    padding: 3.5vh;
+    background-color: #173F5F;
+}
+
+header h1{
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+#Table-section {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+#Table-section h1{
+    justify-self: center;
+}
+
+main {
+    margin-bottom: 8vw;
+}
+
+.h1div h1 {
+    justify-self: center;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.h1div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#new-list-section {
+    display: flex;
+    background-color: #20639B;
+    width: 100%;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.button{
+    right: 10px;
+    bottom: 10px;
+    padding: 5px 10px;
+    border-style: solid;
+    border-radius: 5px;
+    float: right;
+    background-color: #0a2d6a;
+    color: white;
+    font-size: larger;
+}
+
+.button:hover{
+    background-color: #5886CF;
+    cursor: pointer;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.flex-item{
+    width: 50%;
+ }
+
+#TODO-finished td{
+    text-decoration: line-through;
+}
+
+.TODO-table {
+    width: 100%;
+    margin: 0;
+    max-width: 100%;
+}
+
+.button-data {
+    float: right;
+}
+
+.TODO-row {
+    background-color: whitesmoke;
+    border: black 2px solid;
+    flex-wrap: wrap;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: #20639B;
+    width: 100%;
+    padding: 2.5vh;
+    text-align: center;
+    font-style: italic;
+}
+
+.delete-button {
+    background-color: red;
+}
+
+.delete-button:hover {
+    background-color: #9e0013;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
